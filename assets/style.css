@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;   
+}
+.text-centre{
+    text-align: center;
+}
+.input{
+    padding: 9px 61px;
+    border-radius: 12px;
+}
+.row{
+    margin: 8px 0;
+}
+.container{
+    margin: auto;
+    /* border: 1px solid black; */
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+button:active{
+    color: red;
+    border: none;
+    background-color: yellow;
+}
+.focus{
+    color: red;
+    border: none;
+    background-color: yellow;
+}
+button.active {
+	background-color: green;
+	color: aliceblue;
+}
+
+.active{
+	background-color: white;
+	color: aliceblue;
+}
+
+button.oi{
+	background-color: black;
+	color: aliceblue;
+}
